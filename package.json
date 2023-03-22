@@ -1,10 +1,24 @@
 {
   "dependencies": {
-    "expo": "^48.0.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native": "0.71.3",
-    "react-native-web": "~0.18.7"
+    "@react-native-firebase/app": "^17.3.2",
+    "@react-native-picker/picker": "2.4.8",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/material-top-tabs": "^6.6.2",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@reduxjs/toolkit": "^1.9.3",
+    "expo": "^47.0.0",
+    "firebase": "^9.18.0",
+    "moment": "^2.29.4",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-pager-view": "6.0.1",
+    "react-native-scrollable-tab-view": "^1.0.0",
+    "react-native-tab-view": "^3.5.1",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-web": "~0.18.7",
+    "react-redux": "^8.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3"
@@ -17,5 +31,5 @@
   },
   "version": "1.0.0",
   "private": true,
-  "name": "booking_app"
+  "name": "doctor_app"
 }
