@@ -5,7 +5,7 @@ import DoctorCard from './DoctorCard';
 import { useNavigation } from '@react-navigation/native';
 const windowWidth = Dimensions.get('window').width
 const windowHeight = Dimensions.get('window').height
-const AvailableDoctors = () => {
+const AvailableDoctors = ({ selectedCategory }) => {
     const {doctors} = data;
     const navigation = useNavigation();
     const handlePress = (item) => {
@@ -18,11 +18,11 @@ const AvailableDoctors = () => {
         patients,
       });
     };
-    
+    const filteredDoctors = doctors.filter((item) => item.category === selectedCategory);
   return (
     <View>
       <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-      {doctors.map((item,index)=>(
+      {filteredDoctors.map((item,index)=>(
         <TouchableOpacity key={index} onPress={()=>handlePress(item)}>
         <View  style={{
          marginTop:10,

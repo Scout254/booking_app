@@ -41,70 +41,70 @@ const data ={
         {
             image:{uri:"https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg?w=826&t=st=1679136830~exp=1679137430~hmac=7d1dcf7e4295f0be9ddb3c9f0a5a0ff7fb5ad484c5294453c6ef0e9bcb7644bc"},
             name:"Dr.Johh Does",
-            category:"Medicine Specialist",
+            category:"gynacologist",
             experience:"8 Years",
             patients:"1.08K"
         },
         {
             image:{uri:"https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg?w=826&t=st=1679136830~exp=1679137430~hmac=7d1dcf7e4295f0be9ddb3c9f0a5a0ff7fb5ad484c5294453c6ef0e9bcb7644bc"},
             name:"Dr.kevin ambrose",
-            category:"Medicine Specialist",
+            category:"heartt",
             experience:"8 Years",
             patients:"1.08K"
         },
         {
             image:{uri:"https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg?w=826&t=st=1679136830~exp=1679137430~hmac=7d1dcf7e4295f0be9ddb3c9f0a5a0ff7fb5ad484c5294453c6ef0e9bcb7644bc"},
             name:"Dr.zack williams",
-            category:"Medicine Specialist",
+            category:"heart",
             experience:"8 Years",
             patients:"1.08K"
         },
         {
             image:{uri:"https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg?w=826&t=st=1679136830~exp=1679137430~hmac=7d1dcf7e4295f0be9ddb3c9f0a5a0ff7fb5ad484c5294453c6ef0e9bcb7644bc"},
             name:"Dr.boniface wajakoya",
-            category:"Medicine Specialist",
+            category:"animal",
             experience:"8 Years",
             patients:"1.08K"
         },
         {
             image:{uri:"https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg?w=826&t=st=1679136830~exp=1679137430~hmac=7d1dcf7e4295f0be9ddb3c9f0a5a0ff7fb5ad484c5294453c6ef0e9bcb7644bc"},
             name:"Dr.come antonty",
-            category:"Medicine Specialist",
+            category:"Medical specialist",
             experience:"8 Years",
             patients:"1.08K"
         },
         {
             image:{uri:"https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg?w=826&t=st=1679136830~exp=1679137430~hmac=7d1dcf7e4295f0be9ddb3c9f0a5a0ff7fb5ad484c5294453c6ef0e9bcb7644bc"},
             name:"Dr.kimangu junior",
-            category:"Medicine Specialist",
+            category:"Neurosurgeon",
             experience:"8 Years",
             patients:"1.08K"
         },
         {
             image:{uri:"https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg?w=826&t=st=1679136830~exp=1679137430~hmac=7d1dcf7e4295f0be9ddb3c9f0a5a0ff7fb5ad484c5294453c6ef0e9bcb7644bc"},
             name:"Dr.catherine jobs",
-            category:"Medicine Specialist",
+            category:"animal",
             experience:"8 Years",
             patients:"1.08K"
         },
         {
             image:{uri:"https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg?w=826&t=st=1679136830~exp=1679137430~hmac=7d1dcf7e4295f0be9ddb3c9f0a5a0ff7fb5ad484c5294453c6ef0e9bcb7644bc"},
             name:"Dr.elon musk",
-            category:"Medicine Specialist",
+            category:"Neurosurgeon",
             experience:"8 Years",
             patients:"1.08K"
         },
         {
             image:{uri:"https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg?w=826&t=st=1679136830~exp=1679137430~hmac=7d1dcf7e4295f0be9ddb3c9f0a5a0ff7fb5ad484c5294453c6ef0e9bcb7644bc"},
             name:"Dr.dorcas tabitha",
-            category:"Medicine Specialist",
+            category:"Cardiologist",
             experience:"8 Years",
             patients:"1.08K"
         },
         {
             image:{uri:"https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg?w=826&t=st=1679136830~exp=1679137430~hmac=7d1dcf7e4295f0be9ddb3c9f0a5a0ff7fb5ad484c5294453c6ef0e9bcb7644bc"},
             name:"Dr.janet joe",
-            category:"Medicine Specialist",
+            category:"gynacologist",
             experience:"8 Years",
             patients:"1.08K"
         },
@@ -116,23 +116,23 @@ const data ={
         },
         {
             image:{uri:"https://cdn-icons-png.flaticon.com/128/7024/7024300.png"},
-            name:"Cardiologist"
+            name:"Neurosurgeon"
         },
         {
             image:{uri:"https://cdn-icons-png.flaticon.com/128/7024/7024300.png"},
-            name:"Cardiologist"
+            name:"Medical specialist"
         },
         {
             image:{uri:"https://cdn-icons-png.flaticon.com/128/7024/7024300.png"},
-            name:"Cardiologist"
+            name:"heart"
         },
         {
             image:{uri:"https://cdn-icons-png.flaticon.com/128/7024/7024300.png"},
-            name:"Cardiologist"
+            name:"animal"
         },
         {
             image:{uri:"https://cdn-icons-png.flaticon.com/128/7024/7024300.png"},
-            name:"Cardiologist"
+            name:"gynacologist"
         },
     ]
 }
