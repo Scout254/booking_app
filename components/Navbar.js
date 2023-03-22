@@ -24,7 +24,7 @@ const Navbar = () => {
         flexDirection:"row",
         alignItems:"center"
       }}>
-       <TouchableOpacity >
+       <TouchableOpacity onPress={()=> navigation.navigate("Search")}>
        <EvilIcons name='search' size={30} style={{marginRight:5}}/>
        </TouchableOpacity>
        <TouchableOpacity>

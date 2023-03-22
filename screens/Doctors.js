@@ -1,5 +1,5 @@
 import { View, Text, ScrollView ,Dimensions, TouchableOpacity} from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
 import data from '../constants/data'
 
 import DoctorsCard from '../components/DoctorsCard'
@@ -9,6 +9,11 @@ const windowWidth = Dimensions.get('window').width
 const windowHeight = Dimensions.get('window').height
 const Doctors = () => {
     const {doctors,categories} = data;
+    const [selectedCategory, setSelectedCategory] = useState(categories[0].name);
+
+    const handleCategorySelect = (categoryName) => {
+      setSelectedCategory(categoryName);
+    };
     const navigation = useNavigation();
     const handlePress = (item) => {
       const { image, name, category, experience, patients } = item;
@@ -20,13 +25,28 @@ const Doctors = () => {
         patients,
       });
     };
+    const filteredDoctors = doctors.filter((item) => item.category === selectedCategory);
   return (
     <View style={{marginTop:windowHeight *0.06,}}>
       <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
         {categories.map((item,index)=>(
-          <View key={index} style={{height:50,marginBottom:10,justifyContent:"center",margin:4,padding:5}}>
-            <Text style={{fontSize:16}}>{item.name}</Text>
+          <TouchableOpacity key={index} onPress={() => handleCategorySelect(item.name)}>
+            <View  style={{height:50,marginBottom:10,justifyContent:"center",margin:4,padding:5}}>
+            <Text 
+              style={{
+                fontSize: 16,
+                color: selectedCategory === item.name ? "black" : "black",
+                borderBottomWidth: selectedCategory === item.name ? 4 : 0,
+                borderBottomColor: "black",
+                padding:5,
+                fontWeight:selectedCategory === item.name ? "900":"200"
+              }}
+            >
+              {item.name}
+            </Text>
+
           </View>
+          </TouchableOpacity>
         ))}
       </ScrollView>
     <ScrollView showsVerticalScrollIndicator={false}
@@ -41,7 +61,7 @@ const Doctors = () => {
       
     }}>
      
-      {doctors.map((item,index)=>(
+      {filteredDoctors.map((item,index)=>(
         <TouchableOpacity key={index} onPress={()=>handlePress(item)}>
         <View  style={{
          marginTop:10,
